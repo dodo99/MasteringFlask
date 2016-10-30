@@ -6,5 +6,5 @@ class ProdConfig(Config):
 
 class DevConfig(Config):
     DEBUG = True
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:3622@localhost:5432/learningflask'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:3622@localhost:5432/masteringflask'
     SQLALCHMEY_ECHO = True
